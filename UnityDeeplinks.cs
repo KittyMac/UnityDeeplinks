@@ -18,14 +18,9 @@ public class UnityDeeplinks : MonoBehaviour {
 		}
 		#endif
 	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
 
 	public void onDeeplink(string deeplink) {
-		Debug.Log("onDeeplink " + deeplink);
+		Debug.Log("!!!!!!!!!!!!!!!!!!!!!!!!!!!! onDeeplink " + deeplink);
 	}
 
 
